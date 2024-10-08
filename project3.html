@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <title>Company web site   </title>
+    <style>
+        body{
+            font-family:'Courier New', Courier, monospace;
+            margin:0;
+        }
+        Header,footer{
+            background:white url("https://e1.pxfuel.com/desktop-wallpaper/664/468/desktop-wallpaper-beautiful-world-best-pic-in-the-world-best-most-beautiful-places-on-earth.jpg") scroll no-repeat top;
+            background-size:cover;
+            padding:30px;
+            color:blue;
+            text-align: center;
+        }
+        footer{
+            line-height: 10px;
+        }
+        /* ----Main navigation -----*/
+        nav{
+            background-color: aqua;
+            overflow: hidden;
+        }
+        nav ul{
+            list-style-type: none;
+            padding:0;
+            margin:0;
+
+        }
+        nav ul li{
+            float:left;
+        }
+        nav ul li a{
+            text-decoration:none ;
+            color: white;
+            padding: 10px 25px;
+            display: inline-block;
+            font-size: 18px;
+
+        }
+        nav ul li a:hover{
+            background-color: blueviolet;
+        }
+        nav ul li a.active{
+            background-color: chartreuse;
+        }
+        /* ---sidebar section--*/
+        aside{
+            background-color: gold;
+            float:left;
+            width:200px;
+            text-align: center;
+            height: 350px;
+            overflow-y: scroll;
+        }
+        aside ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: black;
+            padding:15px 25px ;
+            display:block ;
+        }
+        aside ul li a:hover{
+            background-color: beige;
+            color: blue;
+
+        }
+        /* Main content section*/
+        section{
+            margin-left: 200px;
+            border-left: 2px solid gray;
+            padding: 10px;
+        }
+        details{
+            background-color: rgb(120, 134, 43);
+            margin: 5px;
+            padding: 10px;
+            color: rgb(38, 8, 236);
+            border-radius: 30px;
+        }
+        article{
+            background-color: deeppink;
+            color: darkred;
+            padding: 10px;
+            border-radius: 30px;
+        }
+        summary{
+            outline: none;
+        }
+    </style>
+    <body>
+        <header>
+            <h1>UiBrains Technologies</h1>
+            <p>The smart way of Learning</p>
+        </header>
+        <!--Main Navigaation-->
+        <nav>
+            <ul> 
+                <li><a href="#" class="active">
+                    <i class="fa fa"></i>Home</a></li>
+                <li><a href="#" >About us                </a></li>
+                <li><a href="#" >Contact us</a></li>
+                <li><a href="#" >Careers</a></li>
+                <li><a href="#">Cources</a></li>
+            </ul>
+        </nav>
+        <!--Side bar section-->
+        <aside>
+             <ul>
+                <li> <a href="#">HTML</a> </li>
+                <li> <a href="#">CSS</a> </li>
+                <li> <a href="#">Java Script</a> </li>
+                <li> <a href="#">AJax</a> </li>
+                <li> <a href="#">JQuary</a> </li>
+                <li> <a href="#">Bootstrap</a> </li>
+                <li> <a href="#">Angular JS</a> </li>
+                <li> <a href="#">Type Script</a> </li>
+             </ul>
+
+        </aside>
+        <!--Main content-->
+        <section>
+            <!--Details tag-->
+            <details>
+                <summary>HTML  </summary>
+                <article>
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias aliquam reprehenderit repudiandae velit dolore, quibusdam ad molestiae pariatur beatae recusandae in numquam aliquid odio praesentium quas sint accusamus ullam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eius nulla in laudantium earum pariatur inventore est deleniti voluptas unde eligendi, beatae vel saepe commodi ipsam adipisci culpa sequi at!</p>
+                </article>                
+            </details>
+            <details>
+                <summary>CSS  </summary>
+                <article>
+                    <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias aliquam reprehenderit repudiandae velit dolore, quibusdam ad molestiae pariatur beatae recusandae in numquam aliquid odio praesentium quas sint accusamus ullam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eius nulla in laudantium earum pariatur inventore est deleniti voluptas unde eligendi, beatae vel saepe commodi ipsam adipisci culpa sequi at!</p>
+                </article>                
+            </details>
+            <details>
+                <summary>Java Script</summary>
+                <article>
+                    <h3>Java Script</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias aliquam reprehenderit repudiandae velit dolore, quibusdam ad molestiae pariatur beatae recusandae in numquam aliquid odio praesentium quas sint accusamus ullam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eius nulla in laudantium earum pariatur inventore est deleniti voluptas unde eligendi, beatae vel saepe commodi ipsam adipisci culpa sequi at!</p>
+                </article>                
+            </details>
+            <details>
+                <summary>AJAX </summary>
+                <article>
+                    <h3> AJAX</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias aliquam reprehenderit repudiandae velit dolore, quibusdam ad molestiae pariatur beatae recusandae in numquam aliquid odio praesentium quas sint accusamus ullam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eius nulla in laudantium earum pariatur inventore est deleniti voluptas unde eligendi, beatae vel saepe commodi ipsam adipisci culpa sequi at!</p>
+                </article>                
+            </details>
+            <details>
+                <summary>JQuary  </summary>
+                <article>
+                    <h3>JQuary   </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias aliquam reprehenderit repudiandae velit dolore, quibusdam ad molestiae pariatur beatae recusandae in numquam aliquid odio praesentium quas sint accusamus ullam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eius nulla in laudantium earum pariatur inventore est deleniti voluptas unde eligendi, beatae vel saepe commodi ipsam adipisci culpa sequi at!</p>
+                </article>                
+            </details>
+            <details>
+                <summary>Bootstrap </summary>
+                <article>
+                    <h3>Bootstrap</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias aliquam reprehenderit repudiandae velit dolore, quibusdam ad molestiae pariatur beatae recusandae in numquam aliquid odio praesentium quas sint accusamus ullam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eius nulla in laudantium earum pariatur inventore est deleniti voluptas unde eligendi, beatae vel saepe commodi ipsam adipisci culpa sequi at!</p>
+                </article>                
+            </details>
+            <details>
+                <summary>Angular JS  </summary>
+                <article>
+                    <h3>Angular JS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias aliquam reprehenderit repudiandae velit dolore, quibusdam ad molestiae pariatur beatae recusandae in numquam aliquid odio praesentium quas sint accusamus ullam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eius nulla in laudantium earum pariatur inventore est deleniti voluptas unde eligendi, beatae vel saepe commodi ipsam adipisci culpa sequi at!</p>
+                </article>                
+            </details>
+            <details>
+                <summary>Type Script </summary>
+                <article>
+                    <h3>Type Script</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At alias aliquam reprehenderit repudiandae velit dolore, quibusdam ad molestiae pariatur beatae recusandae in numquam aliquid odio praesentium quas sint accusamus ullam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eius nulla in laudantium earum pariatur inventore est deleniti voluptas unde eligendi, beatae vel saepe commodi ipsam adipisci culpa sequi at!</p>
+                </article>                
+            </details>
+        </section>
+        <!--Main Footer-->
+        <footer>
+            <h2>Copyright &copy;2024 , UIBrain Technologies</h2>
+            <p>All Rights REserved</p>
+            <small>Developed By <b>GUNJI ASHOK</b></small>
+        </footer>
+    </body>
+</html>
